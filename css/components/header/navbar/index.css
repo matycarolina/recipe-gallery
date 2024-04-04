@@ -1,0 +1,32 @@
+/* .sticky-header {
+  position: sticky;
+  top: 0;
+}
+
+.sticky-header img{
+  position: static
+} */
+
+.header_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_main-navbar_content {
+  visibility: visible;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: var(--clr-primary-400);
+  border: var(--size-1) solid var(--clr-primary-900);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-block: var(--size-2);
+}
+
+.header_main-navbar_in-site_list {
+  display: flex;
+  flex-direction: row;
+}
