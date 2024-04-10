@@ -1,13 +1,15 @@
 .link {
-    display: block;
-    padding-block: var(--size-2);
-    padding-inline: var(--size-3);
-    min-inline-size: var(--size-10);
-    color: var(--clr-primary-900);
-    text-decoration: none;
+  display: block;
+  padding-block: var(--size-2);
+  padding-inline: var(--size-3);
+  min-inline-size: var(--size-10);
+  color: var(--clr-primary-900);
+  text-decoration: none;
 }
 
 .link:hover,
 .link:focus {
-    text-decoration: underline;
+  text-decoration: underline;
 }
+
+/*# sourceMappingURL=index.css.map */

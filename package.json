@@ -1,0 +1,24 @@
+{
+  "name": "recipe-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.74.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matycarolina/recipe-gallery.git"
+  },
+  "author": "Maty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matycarolina/recipe-gallery/issues"
+  },
+  "homepage": "https://github.com/matycarolina/recipe-gallery#readme"
+}

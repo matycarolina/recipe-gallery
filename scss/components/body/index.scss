@@ -2,16 +2,22 @@
   0% {
     transform: translateX(-140%);
   }
+
   100% {
     transform: translateX(0);
   }
 }
-.danger {
+
+@mixin important-text {
   color: red;
   font-size: 10px;
   font-weight: bold;
   text-align: center;
 }
+
+.danger {
+  @include important-text;
+}  
 
 img {
   animation-name: slide-in;
@@ -49,9 +55,8 @@ img {
 /* .two-col{
     justify-content: space-between;
 } */
+
 h1,
 h3 {
   text-align: center;
 }
-
-/*# sourceMappingURL=index.css.map */
